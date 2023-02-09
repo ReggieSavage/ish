@@ -29,7 +29,7 @@ jobs:
         run: script fastlane.log bundle exec fastlane upload_build
         env:
           APP_STORE_CONNECT_API_KEY_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
-          APP_STORE_CONNECT_API_KEY_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_API_KEY_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID go}}
           APP_STORE_CONNECT_API_KEY_KEY: ${{ secrets.APP_STORE_CONNECT_KEY }}
           MATCH_GIT_BASIC_AUTHORIZATION: ${{ secrets.MATCH_GITHUB_AUTH }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSPHRASE }}
